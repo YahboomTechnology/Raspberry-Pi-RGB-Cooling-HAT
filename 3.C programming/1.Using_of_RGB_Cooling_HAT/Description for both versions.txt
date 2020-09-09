@@ -1,0 +1,4 @@
+﻿
+【Temperature control switch version】 and 【Automatic temperature control version】this two tutorial control the fan switch according to the CPU temperature of the Raspberry Pi. 
+【Automatic temperature control version】supports adjusting the fan speed according to CPU temperature.
+【Temperature control switch version】 is turned on according to the CPU temperature reaching a certain value. The fan rotates without adjusting the speed.
