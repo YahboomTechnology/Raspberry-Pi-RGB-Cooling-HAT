@@ -16,7 +16,6 @@ This is a Multi-function cooling expansion board designed for the Raspberry Pi b
 * A driver package that can drive all the functions of the expansion board, as well as program source code and tutorials will be provided.
 
 # Required Best Buy Links
-[By on Amazon](https://www.amazon.com/dp/B085RMLFCL?ref_=ast_sto_dp)
 
 [By on Yahboom website](https://category.yahboom.net/products/rgb-cooling-hat)
 
