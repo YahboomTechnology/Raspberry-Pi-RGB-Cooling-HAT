@@ -52,41 +52,17 @@ int main(void)
         printf("temp: %.1fC\n", temp);
         close(fd_temp); //turn off file
 
-        if (abs(temp - level_temp) >= 1)
+        
+        if (temp <= 45)
         {
-            if (temp <= 45)
-            {
-                level_temp = 45;
-                wiringPiI2CWriteReg8(fd_i2c, 0x08, 0x00);
-            }
-            else if (temp <= 47)
-            {
-                level_temp = 47;
-                wiringPiI2CWriteReg8(fd_i2c, 0x08, 0x04);
-            }
-            else if (temp <= 49)
-            {
-                level_temp = 49;
-                wiringPiI2CWriteReg8(fd_i2c, 0x08, 0x06);
-            }
-            else if (temp <= 51)
-            {
-                level_temp = 51;
-                wiringPiI2CWriteReg8(fd_i2c, 0x08, 0x08);
-            }
-            else if (temp <= 53)
-            {
-                level_temp = 53;
-                wiringPiI2CWriteReg8(fd_i2c, 0x08, 0x09);
-            }
-            else
-            {
-                level_temp = 55;
-                wiringPiI2CWriteReg8(fd_i2c, 0x08, 0x01);
-            }
+            wiringPiI2CWriteReg8(fd_i2c, 0x08, 0x00);
+        }
+        else if (temp >= 50)
+        {
+            wiringPiI2CWriteReg8(fd_i2c, 0x08, 0x01);
         }
 
-        delay(500);
+        delay(1000);
     }
 
     return 0;
