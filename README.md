@@ -1,7 +1,7 @@
 # Raspberry-Pi-RGB-Cooling-HAT
 ![](https://github.com/YahboomTechnology/Raspberry-Pi-RGB-Cooling-HAT/blob/master/Yahboom_RGB_Cooling.jpg)
 # Introduction
-This is a Multi-function cooling expansion board designed for the Raspberry Pi board. It is perfectly compatible with the 4B/3B+/3B to protect Raspberry Pi and extends its life. A 4pin IIC interface for OLED display, which can real-time display CPU temperature, CPU usage, hard disk space, memory and IP address. The large-size cooling fan on the board with strong wind power, it can make Raspberry Pi can run more stably by automatically adjust the speed according to the CPU temperature. 3 high-brightness RGB programming lights on the bottom of the expansion board, which can realize following lights, breathing lights, marquees and so on. It also expandS Raspberry Pi 40pin header and can be used to connect to other devices. We will provide a driver package for all Raspberry Pi images, which is convenient for users to drive fans, OLED displays, RGB lights.
+This is a Multi-function cooling expansion board designed for the Raspberry Pi board. It is perfectly compatible with the Pi5/4B/3B+/3B to protect Raspberry Pi and extends its life. A 4pin IIC interface for OLED display, which can real-time display CPU temperature, CPU usage, hard disk space, memory and IP address. The large-size cooling fan on the board with strong wind power, it can make Raspberry Pi can run more stably by automatically adjust the speed according to the CPU temperature. 3 high-brightness RGB programming lights on the bottom of the expansion board, which can realize following lights, breathing lights, marquees and so on. It also expandS Raspberry Pi 40pin header and can be used to connect to other devices. We will provide a driver package for all Raspberry Pi images, which is convenient for users to drive fans, OLED displays, RGB lights.
 # Features
 * Perfectly compatible with Raspberry Pi 4B/3B+/3B, not occupy any Raspberry Pi pin, not occupy heat sink space.
 
@@ -22,12 +22,6 @@ This is a Multi-function cooling expansion board designed for the Raspberry Pi b
 # Please Contact Us
 If you have any problem when using our robot after checking the tutorial, please contact us.
 
-### Facebook: 
-https://www.facebook.com/yahboomcar/ 
-  
-https://www.facebook.com/yahboomtech
-### WhatsApp:
-+86 18682378128
 ### Technical support email: 
 support@yahboom.com
 
