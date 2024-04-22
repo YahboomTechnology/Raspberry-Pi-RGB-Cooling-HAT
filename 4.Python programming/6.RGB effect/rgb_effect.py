@@ -12,24 +12,35 @@ Max_LED = 3
 def setRGB(num, r, g, b):
     if num >= Max_LED:
         bus.write_byte_data(addr, 0x00, 0xff)
+        time.sleep(0.01)
         bus.write_byte_data(addr, 0x01, r&0xff)
+        time.sleep(0.01)
         bus.write_byte_data(addr, 0x02, g&0xff)
+        time.sleep(0.01)
         bus.write_byte_data(addr, 0x03, b&0xff)
+        time.sleep(0.01)
     elif num >= 0:
         bus.write_byte_data(addr, 0x00, num&0xff)
+        time.sleep(0.01)
         bus.write_byte_data(addr, 0x01, r&0xff)
+        time.sleep(0.01)
         bus.write_byte_data(addr, 0x02, g&0xff)
+        time.sleep(0.01)
         bus.write_byte_data(addr, 0x03, b&0xff)
+        time.sleep(0.01)
 
 def setRGBEffect(effect):
     if effect >= 0 and effect <= 4:
         bus.write_byte_data(addr, rgb_effect_reg, effect&0xff)
+        time.sleep(0.01)
 def setRGBSpeed(speed):
     if speed >= 1 and speed <= 3:
         bus.write_byte_data(addr, rgb_speed_reg, speed&0xff)
+        time.sleep(0.01)
 def setRGBColor(color):
     if color >= 0 and color <= 6:
         bus.write_byte_data(addr, rgb_color_reg, color&0xff)
+        time.sleep(0.01)
 
 bus.write_byte_data(addr, rgb_off_reg, 0x00)
 time.sleep(1)
